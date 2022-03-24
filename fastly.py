@@ -6,7 +6,7 @@
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 
 """
-Fasly Bot Cheat.
+Fastly Bot Cheat.
 
 • `{i}fastly` - On/Off command. 
 
@@ -60,7 +60,7 @@ async def fastOnOff(event):
         ultroid_bot.add_handler(
             fastly_bot,
             events.NewMessage(
-                incoming=True, from_users=[1806208310, 1983714367, 1877720720]
+                incoming=True, from_users=[1806208310, 1983714367, 1877720720, 5053950120]
             ),
         )
         return await xx.edit("`Auto Fastly Response Activated`")
@@ -72,6 +72,6 @@ if udB.get_key("FASTLY"):
     ultroid_bot.add_handler(
         fastly_bot,
         events.NewMessage(
-            incoming=True, from_users=[1806208310, 1983714367, 1877720720]
+            incoming=True, from_users=[1806208310, 1983714367, 1877720720, 5053950120]
         ),
     )
